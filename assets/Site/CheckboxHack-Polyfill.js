@@ -12,6 +12,16 @@ if (!Done) {
 		};
 	};
 
+var Boxs = document.querySelectorAll('input[type~="radio"][name="LangSelect"]');
+for (var i=0; i<Boxs.length; i++) {
+Boxs[i].onclick = function(){
+var Lays = this.querySelectorAll('*[Lang=""]');
+for (var i=0; i<Lays.length; i++) {
+
+};
+};
+};
+
 	Done = true;
 };
 };
