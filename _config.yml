@@ -79,13 +79,13 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-united"
  -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-united"
  -
     scope:
       path: ""
@@ -136,7 +136,7 @@ inc_after_head :
 inc_before_meta : 
 inc_after_meta : 
 inc_before_scripts : 
-inc_after_scripts : 
+inc_after_scripts : after-script.html
 inc_before_styles : 
 inc_after_styles : 
 inc_before_header : 
