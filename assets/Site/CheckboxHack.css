@@ -8,12 +8,12 @@ input[type~="radio"].ToggleDisplay:checked + * {
 	display: revert;
 }
 
-input[type~="radio"].LangSelect[Lang="en"] ~ *[Lang="en"],
-input[type~="radio"].LangSelect[Lang="it"] ~ *[Lang="it"] {
+input[type~="radio"][name="LangSelect"][Lang="en"] ~ *[Lang="en"],
+input[type~="radio"][name="LangSelect"][Lang="it"] ~ *[Lang="it"] {
 	display: none;
 }
 
-input[type~="radio"].LangSelect[Lang="en"]:checked ~ *[Lang="en"],
-input[type~="radio"].LangSelect[Lang="it"]:checked ~ *[Lang="it"] {
+input[type~="radio"][name="LangSelect"][Lang="en"]:checked ~ *[Lang="en"],
+input[type~="radio"][name="LangSelect"][Lang="it"]:checked ~ *[Lang="it"] {
 	display: revert;
 }
