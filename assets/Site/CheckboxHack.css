@@ -8,12 +8,12 @@ input[type~="radio"].ToggleDisplay:checked + * {
 	display: revert;
 }
 
-input[type~="radio"][name="LangSelect"][Lang="en"] ~ #git-wiki-content > *[Lang="en"],
-input[type~="radio"][name="LangSelect"][Lang="it"] ~ #git-wiki-content > *[Lang="it"] {
+input[type~="radio"][name="LangSelect"][lang="en"] ~ #git-wiki-content > *[lang="en"],
+input[type~="radio"][name="LangSelect"][lang="it"] ~ #git-wiki-content > *[lang="it"] {
 	display: none;
 }
 
-input[type~="radio"][name="LangSelect"][Lang="en"]:checked ~ #git-wiki-content > *[Lang="en"],
-input[type~="radio"][name="LangSelect"][Lang="it"]:checked ~ #git-wiki-content > *[Lang="it"] {
+input[type~="radio"][name="LangSelect"][lang="en"]:checked ~ #git-wiki-content > *[lang="en"],
+input[type~="radio"][name="LangSelect"][lang="it"]:checked ~ #git-wiki-content > *[lang="it"] {
 	display: revert;
 }

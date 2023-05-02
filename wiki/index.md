@@ -1,9 +1,12 @@
+<div markdown=1 lang=en>
 # WikiHands
 
-<div markdown=1 Lang=en>
+Documenting all the cute hands... coming soon.
+</div>
 
-In construction.
 
-* Test
+<div markdown=1 lang=it>
+# WikiManine
 
+Documentiamo tutte le manine carine... a breve.
 </div>
