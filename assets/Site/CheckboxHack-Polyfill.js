@@ -14,11 +14,15 @@ if (!Done) {
 	var Langs = document.querySelectorAll('input[type~="radio"][name="LangSelect"]');
 	for (var i=0; i<Langs.length; i++) {
 		Langs[i].onclick = function(){
-			var ThisLays = document.querySelectorAll('#git-wiki-content > *[lang="' + Langs[i].lang + '"]');
-			for (var i=0; i<ThisLays.length; i++) {
-				//ThisLays.style.display = 'revert';
+			var Cont = document.getElementById('git-wiki-content');
+			var AllLays = Cont.querySelectorAll('*[lang]');
+			var CurLays = Cont.querySelectorAll('*[lang="' + Langs[i].lang + '"]');
+			for (var i=0; i<AllLays.length; i++) {
+				AllLays[i].style.display = 'none';
 			};
-			// TODO: hide all the others
+			for (var i=0; i<CurLays.length; i++) {
+				CurLays[i].style.display = 'revert';
+			};
 		};
 	};
 
