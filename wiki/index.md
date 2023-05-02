@@ -1,3 +1,9 @@
+{{% assign img = site.data.MediaCopyright.whose_hand_you_wanna_hold %}}
+<a href="{{ img.source }}">
+    <img src="/WikiHands-Media/{{ img.i }}"/>
+    "whose hand you wanna hold" by pandadango (CC BY-NC-SA 2.0)
+</a>
+
 <div markdown=1 lang=en>
 # WikiHands
 
