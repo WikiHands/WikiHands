@@ -1,7 +1,7 @@
-{% assign img = site.data.mediacopyright.whose_hand_you_wanna_hold %}
-<a href="{{ img.source }}">
-    <img src="/WikiHands-Media/{{ img.i }}"/>
-    "whose hand you wanna hold" by pandadango (CC BY-NC-SA 2.0)
+{% assign i = site.data.mediainfo.whose_hand_you_wanna_hold %}
+<a href="{{ i.source }}">
+    <img src="/WikiHands-Media/{{ i.i }}"/>
+    "{{ i.title }}" by {{ i.author }} ({{ i.license }})
 </a>
 
 <div markdown=1 lang=en>
