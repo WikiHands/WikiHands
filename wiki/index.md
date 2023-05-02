@@ -1,6 +1,6 @@
 # WikiHands
 
-<div Lang=en>
+<div markdown=1 Lang=en>
 
 In construction.
 
