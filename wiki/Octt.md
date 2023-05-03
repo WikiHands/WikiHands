@@ -1,6 +1,6 @@
 # Octt
 
-Octt is the cutie (I suppose?) who runs <@manineuwu> and this wiki.
+Octt is the cutie (I suppose?) who runs {% l "@manineuwu" %} and this wiki.
 
 ## Hands
 

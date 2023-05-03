@@ -1,9 +1,15 @@
 {% assign media = site.data.mediainfo[include.media] %}
 
 {% capture img %}
-{% if media contains "img" %}
-<img src="/WikiHands-Media/{{ media.img }}" style="{{ include.media-style }}"/>
-{% endif %}
+  {% if media contains "img" %}
+    <img src="/WikiHands-Media/{{ media.img }}" style="{{ include.media-style }}"/>
+  {% endif %}
 {% endcapture %}
 
-<a href="{{ media.source-url }}"> {{ img }} <br/> "{{ media.title }}" by {{ media.author }} ({{ media.license }}) </a>
+<div>
+  <a href="{{ media.source-url }}">
+    {{ img }}
+    <br/>
+    "{{ media.title }}" by {{ media.author }} ({{ media.license }})
+  </a>
+</div>
