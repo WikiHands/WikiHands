@@ -1,0 +1,2 @@
+{% assign l = include.l %}
+<a href="{{ l }}"  >{{ l }}</a>
