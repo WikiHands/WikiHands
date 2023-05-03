@@ -1,10 +1,3 @@
-{% assign i = site.data.mediainfo.whose_hand_you_wanna_hold %}
-<a href="{{ i.source }}">
-    <img src="/WikiHands-Media/{{ i.i }}" style="max-height: 60vh;"/>
-    <br/>
-    "{{ i.title }}" by {{ i.author }} ({{ i.license }})
-</a>
-
 <div markdown=1 lang=en>
 # WikiHands
 
@@ -17,3 +10,6 @@ Documenting all the cute hands... coming soon.
 
 Documentiamo tutte le manine carine... a breve.
 </div>
+
+
+{% include media-int.html media="whose_hand_you_wanna_hold" media-style="max-height: 60vh;" %}

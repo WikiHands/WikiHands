@@ -1,0 +1,8 @@
+{% assign media = site.data.mediainfo[include.media] %}
+<a href="{{ media.source-url }}">
+	{% if media contains "img" %}
+		<img src="/WikiHands-Media/{{ media.img }}" style="{{ include.media-style }}"/>
+	{% endif %}
+	<br/>
+	"{{ media.title }}" by {{ media.author }} ({{ media.license }})
+</a>
